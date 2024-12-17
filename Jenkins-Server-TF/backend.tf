@@ -3,7 +3,7 @@ terraform {
     bucket         = "bucket-godemo"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/Jenkins-Server-TF/terraform.tfstate"
-    dynamodb_table = "tablegodemo"
+    dynamodb_table = "tablegodemo1"
     encrypt        = true
   }
   required_version = ">=0.13.0"
