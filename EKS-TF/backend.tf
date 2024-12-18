@@ -1,6 +1,6 @@
 terraform {
   backend "s3" {
-    bucket         = "bucket-godemo"
+    bucket         = "godemo1-bucket"
     region         = "us-east-1"
     key            = "End-to-End-Kubernetes-DevSecOps-Tetris-Project/EKS-TF/terraform.tfstate"
     dynamodb_table = "tablegodemo1"
